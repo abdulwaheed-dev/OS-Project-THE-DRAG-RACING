@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="493.0" prefWidth="451.0" style="-fx-background-color: #151928; -fx-border-color: #ffffff; -fx-border-width: 4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dragrace.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <JFXButton fx:id="play" buttonType="RAISED" layoutX="93.0" layoutY="344.0" onAction="#playNow" prefHeight="55.0" prefWidth="132.0" style="-fx-background-color: #ffe100;" text="PLAY NOW">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="203.0" fitWidth="350.0" layoutX="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/race-car-311667_960_720.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="166.0" layoutY="202.0" prefHeight="68.0" prefWidth="165.0" text="DragRace" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Bauhaus 93" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="264.0" text=" With Multithreading" textFill="#ffe100">
+         <font>
+            <Font name="Forte" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="89.0" fitWidth="132.0" layoutX="63.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true" rotate="360.0">
+         <image>
+            <Image url="@images/racing-flag.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="about" buttonType="RAISED" layoutX="256.0" layoutY="344.0" onAction="#showAbout" prefHeight="55.0" prefWidth="132.0" style="-fx-background-color: #ffe100;" text="ABOUT">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>

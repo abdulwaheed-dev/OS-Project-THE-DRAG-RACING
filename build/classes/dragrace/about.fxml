@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #151928;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="dragrace.AboutController">
+   <children>
+      <Label layoutX="197.0" layoutY="-2.0" prefHeight="64.0" prefWidth="207.0" text="Group Members" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="110.0" prefHeight="27.0" prefWidth="141.0" text="1- Daniyal Shah" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="296.0" prefHeight="27.0" prefWidth="141.0" text="5- Junaid Ahmed" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="245.0" prefHeight="27.0" prefWidth="213.0" text="4- Abdul Waheed Chachar" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="200.0" prefHeight="27.0" prefWidth="207.0" text="3- Ramsha Gopchandani" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="154.0" prefHeight="27.0" prefWidth="141.0" text="2- Raheel Safdar" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="47.0" prefHeight="27.0" prefWidth="213.0" text="BSCS-4   SECTION-A" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
